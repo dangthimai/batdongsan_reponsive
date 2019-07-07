@@ -1,0 +1,214 @@
+.content{
+  display: flex;
+  &__left{
+    width: 100%;
+    @media only screen and(min-width:561px){
+      width: 75%;
+    }
+    &__intro{
+      display: flex;
+      flex-wrap: wrap;
+      .intro__timkiem{
+        width: 100%;
+        @media only screen and(min-width:561px){
+          width: 33%;
+        }
+        .timkiem__title{
+          background: url(../img/congcutimkiem.jpg) no-repeat;
+          background-size: cover;
+          color: #000;
+          font-weight: 500;
+          font-size: 16pt;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+          @media only screen and(min-width:561px){
+            height: 40px;
+          text-align: right;
+          line-height: 40px;
+          }
+         
+        }
+        .timkiem__item{
+          display: flex;
+          width: 100%;
+          text-align: center;
+          .item{
+            background: #9799f5;
+            border-right: 1px solid #000;
+            font-weight: 500;
+            width: 34%;
+          }
+        }
+        .timkiem__input{
+          .timkiem__input__content{
+            border: 1px solid gray;
+            padding: 5px;
+            .doc{
+              margin: 10px;
+              input{
+                width: 100%;
+                margin-top: 5px;
+              }
+              a:hover{
+                color: orangered;
+               cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+      .intro__tt{
+        width: 100%;
+        margin-top: 20px;
+        @media only screen and(min-width:561px){
+          width: 64%;
+          margin-left: 2%;
+        }
+        
+        .tt__tieubieu{
+          display: flex;
+          .images{
+            img{
+            width: 210px;
+            height: 160px;}
+          }
+          .text{
+            width: 60%;
+            margin-left: 20px;
+            .text__title{
+              color: #0d106e;
+            }
+            .text__content{
+
+            }
+          }
+        }
+        .tt__list{
+          margin-top: 20px;
+          height: 246px;
+          overflow: hidden;
+          ul{
+            border: 1px solid gray;
+            li{
+              border-bottom: 1px solid gray;
+    margin-left: -41px;
+    text-align: center;
+    line-height: 34px;
+            }
+          
+          }
+        }
+      }
+    }
+    .topvay{
+      display: none;
+      @media only screen and(min-width:561px){
+        display: block;
+        margin-top: 30px;
+      }
+    }
+    &__tinrao{
+      margin-top: 15px;
+      .tieuderao{
+        background: blue;
+        width: 170px;
+        height: 30px;
+        color: white;
+        font-weight: 500;
+        border: 1px solid gray;
+        border-radius: 5px 5px;
+      }
+      .listtinrao{
+        border: none;
+        height: 900px;
+      overflow: hidden;
+      @media only screen and(min-width:561px){
+        border: 1px solid gray;
+      }
+      .iteminrao{
+        height: 150px;
+    border-bottom: 1px solid;
+    display: flex;
+        .anhrao{
+          width: 120px;
+        height: 90px;
+        padding: 5px;
+        img{
+          width: 175px;
+padding: 5px;
+        }
+        }
+        .tin{
+          margin-left: 100px;
+          .tieudetin{
+            font-size: 14pt;
+            color: blue;
+            font-weight: 500;
+            @media only screen and(min-width:561px){
+              font-size: 18pt;
+              color: blue;
+              font-weight: 500;
+            }
+           
+          }
+          .ndtin{
+            .gia{
+              display: flex;
+              height: 20px;
+              p{
+                font-weight: 500;
+                width: 200px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }}
+  &__right{
+display: none;
+@media only screen and(min-width:561px){
+  width: 25%;
+  display: block;
+}
+  }
+}
+.mail{
+  display: none;
+  @media only screen and(min-width:561px){
+    display: block;
+  border: 1px solid #9799f5;
+    background: #9799f5;
+    height: 50px;
+    position: relative;
+    margin-top: 30px;}
+  .tong{
+    input{
+      width: 500px;
+      margin-left: 100px;
+      height: 35px;
+    }
+    button{
+      position: absolute;
+      top: 6px;
+      right: 15px;
+      width: 100px;
+      background: #0d106e;
+      color: #fff;
+      border: none;
+      height: 35px;
+    }
+  }
+}
+.chinhanh{
+  background: #ededed;
+  display: flex;
+  justify-content: space-between;
+  &__item{
+a{
+  color: #000;
+}
+  }
+}

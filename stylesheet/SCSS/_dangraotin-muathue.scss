@@ -1,0 +1,126 @@
+// trang dang rao tin
+.container{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  .content{
+    margin-bottom: 20px;
+    .col-md-9{
+      .formdang{
+        &__tieude{
+          text-align: center;
+          .formdangtop{
+            color: blue;
+            font-size: 15pt;
+            font-weight: 500;
+          }
+        }
+        .chonmuc{
+          background: #bbb2b2;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          font-weight: 500;
+          &__muaban{
+            display: flex;
+            .banthue,.muathue{
+              width: 60%;
+            }
+          }
+         
+        }
+        
+          .thongtinmota{
+            border: 1px solid gray;
+            margin-top: 20px;
+            &__tieude{
+              height: 35px;
+              line-height: 35px;
+              color: white;
+              background: #4b4b85;
+              text-align: center;
+              font-size: 1.25em;
+              input, textarea, select{width: 100%;
+                @media only screen and(min-width:561px){
+                  width: 100%;
+                }}
+            }
+            .noidungmota{
+              padding: 30px;
+              width: 100%;
+              .flex{
+                display: flex;
+                margin-bottom: 10px;
+                margin-top: 30px;
+              }
+              .lienhe{
+                margin: 20px;
+              }
+            }
+          }
+        
+        button{
+          margin-top: 30px;
+          background: green;
+          border: none;
+          text-align: center;
+          width: 150px;
+          height: 40px;
+          margin-left: 35%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .col-md-3{
+      .huongdan{
+        border: 1px solid gray;
+        color: #605555;
+        font-size: 12pt;
+        font-family: -webkit-body;
+        &__tieude{ background: rgb(9, 9, 115);
+          color: white;
+          text-align: center;
+          height: 35px;
+          line-height: 35px;}
+        &__nd{}
+      }
+    }
+.bancobiet{
+  color: green;
+}
+  }
+}
+
+.thongtinmota{
+  input, textarea, select{width: 100%;
+  @media only screen and(min-width:561px){
+    width: 100%;
+  }}
+.lienhe{
+  width: 100%;
+  @media only screen and(min-width:561px){
+    width: 545px;
+  }
+}
+}
+.thongtincoban{
+  input, textarea, select{width: 100%;
+    @media only screen and(min-width:561px){
+      width: 175px;
+    }
+}
+}
+.thongtinlienhe{
+input, textarea, select{width: 100%;
+  @media only screen and(min-width:561px){
+    width: 545px;
+  }
+}
+}
+.thongtinkhac{
+input, textarea, select{width: 100%;
+  @media only screen and(min-width:561px){
+    width: 545px;
+  }
+}
+}

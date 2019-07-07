@@ -1,0 +1,55 @@
+html,body{
+  width: 100%;
+  font-size: 12pt;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+a{
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  
+ 
+}
+.xanh{
+  background: green;
+}
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.optrai{
+  width: 10%;
+  position: fixed;
+  top:0px;
+  display: none;
+  @media only screen and(min-width:561px) {
+    display: block;
+  }
+  
+}
+.optrai img{
+  width: 100%;
+}
+.opphai{
+  width: 10%;
+  position: fixed;
+  top:0px;
+  right: 3px;
+  display: none;
+  @media only screen and(min-width:561px) {
+    display: block;
+  }
+}
+.opphai img{
+  width: 100%;
+}
+.banthue, .muathue{
+  width: 50%;
+}

@@ -1,0 +1,13 @@
+footer{
+  text-align: center;
+  margin-top: 50px;
+  /* border: 1px solid gray; */
+  background: #ededed;
+  position: relative;
+  img{
+    @media only screen and (min-width:561px){
+    position: absolute;
+    top: 30px;
+    right: 40px;}
+  }
+}
